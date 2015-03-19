@@ -19,7 +19,18 @@ Ad essere precisi, un documento di Analisi dei Requisiti (AdR) è diverso da un 
 ## Input
 ### Organizzazione directory studenti
 Lo script assume che tutti i progetti degli studenti siano memorizzati in un'unica directory (`<directory_studenti>`). In essa, ogni studente ha la propria directory, col nome del proprio account GitHub. Dentro la directory dello studente, si trovano tante directory quanti sono i progetti, col nome relativo.
-
+    <directory_studenti>
+       |-<github_username_studente1>
+       |   |-<progetto1>
+       |   |-<progetto2>
+       |   |-...
+       |   |-<progettoN>
+       ...
+       |-<github_username_studenteM>
+           |-<progetto1>
+           |-<progetto2>
+           |-...
+           |-<progettoN>
 
 ### [opzioni]
 
