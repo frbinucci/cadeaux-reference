@@ -17,7 +17,7 @@ I parametri forniti nella sintassi si distinguono tra opzionali (tra paresentesi
 Ad essere precisi, un documento di Analisi dei Requisiti (AdR) è diverso da un manuale utente (MU). Entrambi adottano il punto di vista dell'utente, descrivendo il comportamento del sistema secondo quanto esso si aspetta. Il documento AdR aggiunge l'analisi, cioè una discussione sulla coerenza e sulla fattibilità delle richieste dell'utente. Se in generale AdR e MU sono distnti, nel nostro caso vengono a coincidere, in quanto non è necessario discutere i requisiti,  ma solo documentarli.
   
 ## Input
-### Organizzazione directory studenti
+### Organizzazione directory studenti [directory_studenti]
 Lo script assume che tutti i progetti degli studenti siano memorizzati in un'unica directory (`directory_studenti`). In essa, ogni studente ha la propria directory, col nome del proprio account GitHub. Dentro la directory dello studente, si trovano tante directory quanti sono i progetti, col nome relativo.
 ```
 directory_studenti
@@ -37,7 +37,7 @@ directory_studenti
 ### LISTA_STUDENTI
 Nome del file (con percorso assoluto o relativo) che contiene la lista degli studenti. Ogni riga contiene il nome utente GitHub dello studente.
 
-In ogni caso il nome coincide col nome della directory per lo studente (vedi [Organizzazione directory studenti](/Organizzazione directory studenti/)
+In ogni caso il nome coincide col nome della directory per lo studente (vedi [Organizzazione directory studenti](/directory_studenti/)
 
 ### PROGETTO
 Nome del progetto. Esso coincide col nome della directory che contiene il progetto (vedi 
