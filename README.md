@@ -51,4 +51,14 @@ Percorso (assoluto o relativo) alla directory degli studenti (vedi [Organizzazio
 * 1 File con la lista degli studenti non trovato
 * 2 Directory degli studenti non trovata
 * ...
+
 ### STDOUT
+Per ogni studente, lo script riporterà una riga con
+`<n>: <studente> OK|ERROR (descrizione dell'errore)`
+
+#### Errori possibili
+NOTA: nell'elencare e descrivere gli errori possibili è necessario tener conto dell'output e degli esiti degli script che vengono eventualmente utilizzati.
+
+* Impossibile trovare il file da compilare (progetto vuoto?) - Non è stato trovato alcun file compilare. Il progetto potrebbe essere vuoto o non avere l'organizzazione prevista (vedi XXX per informazioni sull'organizzazione prevista).
+* Non compila. La compilazione del progetto non è riuscita.
+* ...
