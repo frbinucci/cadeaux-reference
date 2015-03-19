@@ -5,7 +5,7 @@
 *cadeaux-reference*, riferimento di esempio per i progetti cadeaux classe 4BINF AS1415
   
 ## Sintassi
-    cadeaux-reference [opzioni] <lista_studenti> <progetto> <directory_studenti>
+    cadeaux-reference LISTA_STUDENTI PROGETTO DIRECTORY_STUDENTI [OPZIONI]
   
 ## Descrizione
 Nella sezione "nome" troviamo la descrizione sintetica (una riga) di ciò che lo script fa. In questa sezione
@@ -18,25 +18,29 @@ Ad essere precisi, un documento di Analisi dei Requisiti (AdR) è diverso da un 
   
 ## Input
 ### Organizzazione directory studenti
-Lo script assume che tutti i progetti degli studenti siano memorizzati in un'unica directory (`<directory_studenti>`). In essa, ogni studente ha la propria directory, col nome del proprio account GitHub. Dentro la directory dello studente, si trovano tante directory quanti sono i progetti, col nome relativo.
+Lo script assume che tutti i progetti degli studenti siano memorizzati in un'unica directory (`directory_studenti`). In essa, ogni studente ha la propria directory, col nome del proprio account GitHub. Dentro la directory dello studente, si trovano tante directory quanti sono i progetti, col nome relativo.
 ```
-<directory_studenti>
- |-<github_username_studente1>
- |   |-<progetto1>
- |   |-<progetto2>
+directory_studenti
+ |-github_username_studente1
+ |   |-progetto1
+ |   |-progetto2
  |   |-...
- |   |-<progettoN>
+ |   |-progettoN
  ...
- |-<github_username_studenteM>
-     |-<progetto1>
-     |-<progetto2>
+ |-github_username_studenteM
+     |-progetto1
+     |-progetto2
      |-...
-     |-<progettoN>
+     |-progettoN
 ```
 
-### [opzioni]
+### LISTA_STUDENTI
+Nome del file (con percorso assoluto o relativo) che contiene la lista degli studenti. Ogni riga contiene il nome utente GitHub dello studente.
 
-### <lista_studenti>
+In ogni caso il nome coincide col nome della directory per lo studente (vedi [Organizzazione directory studenti](/Organizzazione directory studenti/)
 
-### <Progetto>
+### PROGETTO
+Nome del progetto. Esso coincide col nome della directory che contiene il progetto (vedi 
+
+### DIRECTORY_STUDENTI
 ## Output
