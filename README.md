@@ -59,6 +59,6 @@ Per ogni studente, lo script riporterà una riga con
 #### Errori possibili
 NOTA: nell'elencare e descrivere gli errori possibili è necessario tener conto dell'output e degli esiti degli script che vengono eventualmente utilizzati.
 
-* Impossibile trovare il file da compilare (progetto vuoto?) - Non è stato trovato alcun file compilare. Il progetto potrebbe essere vuoto o non avere l'organizzazione prevista (vedi XXX per informazioni sull'organizzazione prevista).
-* Non compila. La compilazione del progetto non è riuscita.
+* "Impossibile trovare il file da compilare (progetto vuoto?)" - Non è stato trovato alcun file compilare. Il progetto potrebbe essere vuoto o non avere l'organizzazione prevista (vedi XXX per informazioni sull'organizzazione prevista).
+* "Non compila" - La compilazione del progetto non è riuscita.
 * ...
