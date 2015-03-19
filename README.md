@@ -37,10 +37,18 @@ directory_studenti
 ### LISTA_STUDENTI
 Nome del file (con percorso assoluto o relativo) che contiene la lista degli studenti. Ogni riga contiene il nome utente GitHub dello studente.
 
-In ogni caso il nome coincide col nome della directory per lo studente (vedi [Organizzazione directory studenti](#Organizzazione directory studenti)
+In ogni caso il nome coincide col nome della directory per lo studente (vedi [Organizzazione directory studenti](#Organizzazione directory studenti))
 
 ### PROGETTO
-Nome del progetto. Esso coincide col nome della directory che contiene il progetto (vedi 
+Nome del progetto. Esso coincide col nome della directory che contiene il progetto (vedi [Organizzazione directory studenti](#Organizzazione directory studenti))
 
 ### DIRECTORY_STUDENTI
+Percorso (assoluto o relativo) alla directory degli studenti (vedi [Organizzazione directory studenti](#Organizzazione directory studenti)).
+
 ## Output
+### Exit code
+* 0 Operazioni eseguite con successo
+* 1 File con la lista degli studenti non trovato
+* 2 Directory degli studenti non trovata
+* ...
+### STDOUT
