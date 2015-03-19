@@ -31,7 +31,8 @@ Lo script assume che tutti i progetti degli studenti siano memorizzati in un'uni
      |-<progetto1>
      |-<progetto2>
      |-...
-     |-<progettoN>```
+     |-<progettoN>
+```
 
 ### [opzioni]
 
